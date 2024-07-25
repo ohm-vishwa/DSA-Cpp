@@ -4,7 +4,7 @@
 |[Patterns](/patterns.cpp)|
 
 
-> ### Boilerplate Code `c++` for VSCode Editor
+### Boilerplate Code `c++` for VSCode Editor
 > [!TIP]\
 > 1.Open setting in VSCode Editor\
 > 2.Go to user Sinppets\
