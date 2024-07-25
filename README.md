@@ -9,7 +9,8 @@
 > 1.Open setting in VSCode Editor\
 > 2.Go to user Sinppets\
 > 3.search cpp.json\
-> 4.Replace with Below Code
+> 4.Replace with Below Code\
+> Then after open **.cpp** file & just type `boilerplate` and hit Enter and & see magic.
 
 ```json
 "Print to console": {
