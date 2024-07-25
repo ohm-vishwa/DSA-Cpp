@@ -193,7 +193,7 @@ void pattern15(int n){
 }
 
 // Dabang pattern :)
-void patter16(int n) {
+void pattern16(int n) {
     cout << "\npattern 16" << endl;
     int temp = n;
     for (int i = 1 ; i <= n ; i++){
@@ -240,6 +240,6 @@ int main(){
     pattern13(n);
     pattern14(n);
     pattern15(n);
-    patter16(n);
+    pattern16(n);
     return 0;
 }
