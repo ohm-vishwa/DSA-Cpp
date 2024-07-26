@@ -4,7 +4,7 @@
 |----|
 |[Patterns](/patterns.cpp)|
 
-## Leet Code Problems
+## Leet Code Problems #f03c15
 
 |no.|Leet Code Problems|
 |---|------------------|
