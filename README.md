@@ -3,10 +3,10 @@
 |----|
 |[Patterns](/patterns.cpp)|
 
-|Leet Code Problems|
-|------------------|
-|[subtract-the-product-and-sum-of-digits-of-an-integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|
-|[number-of-1-bits](https://leetcode.com/problems/number-of-1-bits)|
+|no.|Leet Code Problems|
+|---|------------------|
+|1281|[subtract-the-product-and-sum-of-digits-of-an-integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|
+|191|[number-of-1-bits](https://leetcode.com/problems/number-of-1-bits)|
 
 ### Boilerplate Code `c++` for VSCode Editor
 > [!TIP]\
