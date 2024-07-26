@@ -4,8 +4,7 @@
 |----|
 |[Patterns](/patterns.cpp)|
 
-## Leet Code Problems <p style="color:blue">This is a paragraph with <em>blue</em> text.</p>
-
+## Leet Code Questions
 
 |no.|Leet Code Problems|
 |---|------------------|
