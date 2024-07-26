@@ -1,7 +1,10 @@
 # DSA C++
+
 |Code|
 |----|
 |[Patterns](/patterns.cpp)|
+
+## Leet Code Problems
 
 |no.|Leet Code Problems|
 |---|------------------|
@@ -9,6 +12,7 @@
 |191|[number-of-1-bits](https://leetcode.com/problems/number-of-1-bits)|
 
 ### Boilerplate Code `c++` for VSCode Editor
+
 > [!TIP]\
 > 1.Open setting in VSCode Editor\
 > 2.Go to user Sinppets\
@@ -30,6 +34,7 @@
 		"description": "Log output to console"
 	}
 ```
+
 ```cpp
 int a;
 a = cin.get(); // it stores ASCII value of  given input in a.
