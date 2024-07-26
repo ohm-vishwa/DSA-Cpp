@@ -4,7 +4,8 @@
 |----|
 |[Patterns](/patterns.cpp)|
 
-## Leet Code Problems ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png%29)
+## Leet Code Problems <p style="color:blue">This is a paragraph with <em>blue</em> text.</p>
+
 
 |no.|Leet Code Problems|
 |---|------------------|
