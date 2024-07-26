@@ -4,8 +4,7 @@
 |----|
 |[Patterns](/patterns.cpp)|
 
-## Leet Code Problems <font color="green"> Some green text </font>
-
+## Leet Code Problems ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png%29)
 
 |no.|Leet Code Problems|
 |---|------------------|
