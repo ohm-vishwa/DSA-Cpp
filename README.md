@@ -3,11 +3,11 @@
 |Code|
 |----|
 |[Patterns](/patterns.cpp)|
-|[Fibonacci number](/Problems/1_fibonacci.cpp)|
-|[Check Prime number](/Problems/2_isPrime.cpp)|
-|[Subtract --> (product & sum)](/Problems/3_subtractProductAndSum.cpp)|
-|[Decimal to Binary](/Problems/4_decimalToBinary.cpp)|
-|[Binary toDecimal](/Problems/5_binaryToDecimal.cpp)|
+|[1 Fibonacci number](/Problems/1_fibonacci.cpp)|
+|[2 Check Prime number](/Problems/2_isPrime.cpp)|
+|[3 Subtract --> (product & sum)](/Problems/3_subtractProductAndSum.cpp)|
+|[4 Decimal to Binary](/Problems/4_decimalToBinary.cpp)|
+|[5 Binary toDecimal](/Problems/5_binaryToDecimal.cpp)|
 |[]()|
 
 ## Leet Code Questions
