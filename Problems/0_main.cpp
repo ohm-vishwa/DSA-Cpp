@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-#include "1_fib.cpp"
+#include "1_fibonacci.cpp"
 #include "2_isPrime.cpp"
 #include "3_subtractProductAndSum.cpp"
 #include "4_decimalToBinary.cpp"
