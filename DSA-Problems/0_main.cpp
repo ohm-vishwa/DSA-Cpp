@@ -16,6 +16,6 @@ int main(){
     cout << "\nfib of " << n << " is " << fib(n) << " " << endl;
     isPrime(n);
     cout << "product - sum = " << subtractProductAndSum(n) << endl;
-    cout << "binary of " << n <<" is " << decimalToBinary(n) << endl;
+    cout << "Binary of " << n <<" is " << decimalToBinary(n) << endl;
     return 0;
 }
