@@ -26,6 +26,6 @@ int main(){
 
     cout << "Enter Binary String : ";
     cin >> n;
-    cout << "Binary of " << n << " is " << binaryToDecimal(n) << endl;
+    cout << "Decimal of " << n << " is " << binaryToDecimal(n) << endl;
     return 0;
 }
