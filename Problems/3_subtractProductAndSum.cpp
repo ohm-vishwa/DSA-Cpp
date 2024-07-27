@@ -1,3 +1,8 @@
+//it can be execute from 0_main.cpp
+
+// #include <iostream>
+// using namespace std;
+
 int subtractProductAndSum(int n) {
         int product = 1;
         int sum = 0;
@@ -8,3 +13,8 @@ int subtractProductAndSum(int n) {
         }
         return product - sum;
     }
+
+// int main(){
+//     cout << subtractProductAndSum(234);
+//     return 0;
+// }

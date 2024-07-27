@@ -1,3 +1,4 @@
+//it can be execute from 0_main.cpp
 #include <iostream>
 using namespace std;
 
@@ -20,3 +21,8 @@ void isPrime(int n){
         cout << n << " is not a prime number" << endl;
     }     
 }
+
+// int main(){
+//     isPrime(11);
+//     return 0;
+// }

@@ -1,3 +1,8 @@
+//it can be execute from 0_main.cpp
+
+// #include <iostream>
+// using namespace std;
+
 int fib(int n){
     int a = 1 , b = 1, c;
     if(n <= 1){
@@ -13,3 +18,8 @@ int fib(int n){
     }
     return c;
 }
+
+// int main(){
+//     cout << fib(5);
+//     return 0;
+// }
