@@ -10,12 +10,12 @@ using namespace std;
 
 int main(){
     int n;
-    // cout << "Enter the value of n : ";
-    // cin >> n;
+    cout << "Enter the value of n : ";
+    cin >> n;
 
-    // cout << "\nfib of " << n << " is " << fib(n) << " " << endl;
-    // isPrime(n);
-    // cout << "product - sum = " << subtractProductAndSum(n) << endl;
-    decimalToBinary(8);
+    cout << "\nfib of " << n << " is " << fib(n) << " " << endl;
+    isPrime(n);
+    cout << "product - sum = " << subtractProductAndSum(n) << endl;
+    cout << "binary of " << n <<" is " << decimalToBinary(n) << endl;
     return 0;
 }
