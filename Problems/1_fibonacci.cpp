@@ -1,4 +1,4 @@
-//it can be execute from 0_main.cpp
+//it can be executed from 0_main.cpp
 
 // #include <iostream>
 // using namespace std;

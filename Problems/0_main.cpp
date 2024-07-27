@@ -4,6 +4,7 @@
 #include "2_isPrime.cpp"
 #include "3_subtractProductAndSum.cpp"
 #include "4_decimalToBinary.cpp"
+#include "5_binaryToDecimal.cpp"
 
 
 using namespace std;
@@ -22,5 +23,9 @@ int main(){
     cout << "Binary of " << n <<" is "; 
     decimalToBinary(n);
     cout << endl;
+
+    cout << "Enter Binary String : ";
+    cin >> n;
+    cout << "Binary of " << n << " is " << binaryToDecimal(n) << endl;
     return 0;
 }
