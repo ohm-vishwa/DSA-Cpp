@@ -6,7 +6,6 @@
 
 int binaryToDecimal(int n){
     int num = 0;
-    int x = 0;
     for (int i = 0 ; n != 0 ; i++){
         if(n % 10 == 1){
             num = num + (pow(2,i));
