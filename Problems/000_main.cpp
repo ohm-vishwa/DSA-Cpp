@@ -29,5 +29,8 @@ int main(){
 
     //reverse integer.
     cout << "reverse of " << n << " is " << reverseInteger(n) << endl;
+
+    // 1's Compliment in bits
+    cout << "1's Compliment of " << n << " is " << bitwiseComplement(n) << endl;
     return 0;
 }

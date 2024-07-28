@@ -5,3 +5,4 @@
 #include "004_decimalToBinary.cpp"
 #include "005_binaryToDecimal.cpp"
 #include "006_reverseInteger.cpp"
+#include "007_bitwiseComplement.cpp"
