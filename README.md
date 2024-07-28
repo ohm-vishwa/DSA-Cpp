@@ -3,11 +3,13 @@
 |Code|
 |----|
 |[Patterns](/patterns.cpp)|
-|[1 Fibonacci number](/Problems/1_fibonacci.cpp)|
-|[2 Check Prime number](/Problems/2_isPrime.cpp)|
-|[3 Subtract --> (product & sum)](/Problems/3_subtractProductAndSum.cpp)|
-|[4 Decimal to Binary](/Problems/4_decimalToBinary.cpp)|
-|[5 Binary toDecimal](/Problems/5_binaryToDecimal.cpp)|
+|[1 Fibonacci number](/Problems/001_fibonacci.cpp)|
+|[2 Check Prime number](/Problems/002_isPrime.cpp)|
+|[3 Subtract --> (product & sum)](/Problems/003_subtractProductAndSum.cpp)|
+|[4 Decimal to Binary](/Problems/004_decimalToBinary.cpp)|
+|[5 Binary toDecimal](/Problems/005_binaryToDecimal.cpp)|
+|[6 Reverse Integer](/Problems/006_reverseInteger.cpp)|
+|[]()|
 |[]()|
 
 ## Leet Code Questions
@@ -15,7 +17,9 @@
 |no.|Leet Code Problems|
 |---|------------------|
 |1281|[subtract-the-product-and-sum-of-digits-of-an-integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|
-|191|[number-of-1-bits](https://leetcode.com/problems/number-of-1-bits)|
+|191|[number-of-1-bits](https://leetcode.com/problems/number-of-1-bits/)|
+|7|[reverse-integer](https://leetcode.com/problems/reverse-integer/)|
+||[]()|
 
 ### Boilerplate Code `c++` for VSCode Editor
 
