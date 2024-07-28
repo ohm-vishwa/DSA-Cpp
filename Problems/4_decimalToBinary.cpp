@@ -11,8 +11,6 @@ void decimalToBinary(int n){
     cout << (n % 2);
     return;
 }
-#include <iostream>
-using namespace std;
 
 // int main(){
 //     decimalToBinary(5);
