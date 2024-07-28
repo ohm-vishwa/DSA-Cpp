@@ -10,7 +10,7 @@
 |[5 Binary toDecimal](/Problems/005_binaryToDecimal.cpp)|
 |[6 Reverse Integer](/Problems/006_reverseInteger.cpp)|
 |[7 Bitwise 1's Compliment](/Problems/007_bitwiseComplement.cpp)|
-|[]()|
+|[8 power of 2](/Problems/008_isPowerOf2.cpp)|
 |[]()|
 
 ## Leet Code Questions
@@ -21,6 +21,8 @@
 |191|[number-of-1-bits](https://leetcode.com/problems/number-of-1-bits/)|
 |7|[reverse-integer](https://leetcode.com/problems/reverse-integer/)|
 |1009|[complement-of-base-10-integer](https://leetcode.com/problems/complement-of-base-10-integer/)|
+|132|[check Perfect square](https://leetcode.com/problems/power-of-two/)|
+|||
 
 ### Boilerplate Code `c++` for VSCode Editor
 

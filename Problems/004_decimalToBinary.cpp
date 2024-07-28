@@ -1,18 +1,20 @@
 //it can be executed from 0_main.cpp
+// #include <iostream>
+#include <math.h>
+// using namespace std;
 
-#include <iostream>
-using namespace std;
-
-void decimalToBinary(int n){
-    if (n == 0){
-        return;
+long long int decimalToBinary(int n){
+    long long int binary = 0;
+    for(int i = 0 ; n != 0 ; i++){
+        if(n%2){
+        binary = binary + pow(10, i);
+        }
+        n = n >> 1;
     }
-    decimalToBinary(n >> 1);
-    cout << (n % 2);
-    return;
+    return binary;
 }
 
 // int main(){
-//     decimalToBinary(5);
+//     cout << decimalToBinary(5);
 //     return 0;
 // }

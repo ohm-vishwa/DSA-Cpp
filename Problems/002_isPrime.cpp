@@ -1,12 +1,11 @@
 //it can be executed from 0_main.cpp
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-void isPrime(int n){
+bool isPrime(int n){
     bool isPrime = true;
     if(n == 1 ){
-            cout << n << "is a prime number" << endl;
-        return;
+        return true;
     }
     for (int i = n-1 ; i > 1 ; i--){
         if (n % i == 0){
@@ -14,12 +13,7 @@ void isPrime(int n){
             break;
         }
     }
-    if(isPrime){
-        cout << n << " is a prime number" << endl;
-    }
-    else{
-        cout << n << " is not a prime number" << endl;
-    }     
+    return isPrime;     
 }
 
 // int main(){
