@@ -1,19 +1,18 @@
 # DSA C++
-
-|Code|
-|----|
-|[Patterns](/patterns.cpp)|
-|[1 Fibonacci number](/Problems/001_fibonacci.cpp)|
-|[2 Check Prime number](/Problems/002_isPrime.cpp)|
-|[3 Subtract --> (product & sum)](/Problems/003_subtractProductAndSum.cpp)|
-|[4 Decimal to Binary](/Problems/004_decimalToBinary.cpp)|
-|[5 Binary toDecimal](/Problems/005_binaryToDecimal.cpp)|
-|[6 Reverse Integer](/Problems/006_reverseInteger.cpp)|
-|[7 Bitwise 1's Compliment](/Problems/007_bitwiseComplement.cpp)|
-|[8 power of 2](/Problems/008_isPowerOf2.cpp)|
-|[9 Power](/Problems/009_power.cpp)|
-|[10 Even Odd](/Problems/010_isEven.cpp)|
-|[11 Factorial & Combination](/Problems/011_factorialAndCombination.cpp)|
+## Code
+|Problems|Array|
+|--------|-----|
+|[1 Fibonacci number](/Problems/001_fibonacci.cpp)                        |[1 Reverse Array](/Array/001_reverseArray.cpp)|
+|[2 Check Prime number](/Problems/002_isPrime.cpp)                        ||
+|[3 Subtract --> (product & sum)](/Problems/003_subtractProductAndSum.cpp)||
+|[4 Decimal to Binary](/Problems/004_decimalToBinary.cpp)                 ||
+|[5 Binary toDecimal](/Problems/005_binaryToDecimal.cpp)                  ||
+|[6 Reverse Integer](/Problems/006_reverseInteger.cpp)                    ||
+|[7 Bitwise 1's Compliment](/Problems/007_bitwiseComplement.cpp)          ||
+|[8 power of 2](/Problems/008_isPowerOf2.cpp)                             ||
+|[9 Power](/Problems/009_power.cpp)                                       ||
+|[10 Even Odd](/Problems/010_isEven.cpp)                                  ||
+|[11 Factorial & Combination](/Problems/011_factorialAndCombination.cpp)  ||
 
 ## Leet Code Questions
 
