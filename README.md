@@ -11,8 +11,8 @@
 |[6 Reverse Integer](/Problems/006_reverseInteger.cpp)|
 |[7 Bitwise 1's Compliment](/Problems/007_bitwiseComplement.cpp)|
 |[8 power of 2](/Problems/008_isPowerOf2.cpp)|
-|[]()|
-|[]()|
+|[9 Power](/Problems/009_power.cpp)|
+|[10 Even Odd](/Problems/010_isEven.cpp)|
 
 ## Leet Code Questions
 

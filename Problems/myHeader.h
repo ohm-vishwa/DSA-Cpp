@@ -6,3 +6,5 @@
 #include "006_reverseInteger.cpp"
 #include "007_bitwiseComplement.cpp"
 #include "008_isPowerOf2.cpp"
+#include "009_power.cpp"
+#include "010_isEven.cpp"

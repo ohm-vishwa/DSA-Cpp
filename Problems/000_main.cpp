@@ -11,7 +11,7 @@ int main(){
     for(int i = 1 ; i <= n ; i++){
         cout << fib(i) << ", ";
         if(fib(i) > 1134903170){
-            cout << " not in range.";
+            cout << "..... not in range.";
             break;
         }
     }
@@ -55,5 +55,21 @@ int main(){
         cout << a << " is not a perfect square." << endl; 
     }
     
+    //power
+    int b;
+    cout << "power function arguments," << endl;
+    cout << "Enter Base : ";
+    cin >> a;
+    cout << "Enter power : ";
+    cin >> b;
+    cout << a << "^" << b << " is " << power(a,b) << endl;
+
+    //is Even
+    if(isEven(n)){
+        cout << n << " is Even. " << endl; 
+    }
+    else{
+        cout << n << " is Odd." << endl;
+    }
     return 0;
 }
