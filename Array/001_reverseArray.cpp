@@ -1,24 +1,24 @@
 #include <iostream>
 using namespace std;
 
-void fillArray(int (&arr)[] , int n){
-    for(int i = 0 ; i < n ; i++){
-        cout << "Enter element for index " << i << " : ";
-        cin >> arr[i];
-    }
-}
+// void fillArray(int (&arr)[] , int n){
+//     for(int i = 0 ; i < n ; i++){
+//         cout << "Enter element for index " << i << " : ";
+//         cin >> arr[i];
+//     }
+// }
 
-void printArray(int arr[],int n){
-    cout << "[";
-    for(int i = 0 ; i < n ; i++){
-        cout << arr[i];
-    if(i == n-1){
-        break;
-    }
-        cout <<", ";
-    }
-    cout <<"]" << endl;
-}
+// void printArray(int arr[],int n){
+//     cout << "[";
+//     for(int i = 0 ; i < n ; i++){
+//         cout << arr[i];
+//     if(i == n-1){
+//         break;
+//     }
+//         cout <<", ";
+//     }
+//     cout <<"]" << endl;
+// }
 
 int reverseArray(int (&arr)[], int n){
     int temp;
