@@ -3,8 +3,8 @@
 |Problems|Array|
 |--------|-----|
 |[1 Fibonacci number](/Problems/001_fibonacci.cpp)                        |[1 Reverse Array](/Array/001_reverseArray.cpp)|
-|[2 Check Prime number](/Problems/002_isPrime.cpp)                        ||
-|[3 Subtract --> (product & sum)](/Problems/003_subtractProductAndSum.cpp)||
+|[2 Check Prime number](/Problems/002_isPrime.cpp)                        |[2 fill Array](/Array/002_fillArray.cpp)|
+|[3 Subtract --> (product & sum)](/Problems/003_subtractProductAndSum.cpp)|[3 print Array](/Array/003_printArray.cpp)|
 |[4 Decimal to Binary](/Problems/004_decimalToBinary.cpp)                 ||
 |[5 Binary toDecimal](/Problems/005_binaryToDecimal.cpp)                  ||
 |[6 Reverse Integer](/Problems/006_reverseInteger.cpp)                    ||
