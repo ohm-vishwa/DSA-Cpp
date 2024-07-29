@@ -13,6 +13,7 @@
 |[8 power of 2](/Problems/008_isPowerOf2.cpp)|
 |[9 Power](/Problems/009_power.cpp)|
 |[10 Even Odd](/Problems/010_isEven.cpp)|
+|[11 Factorial & Combination](/Problems/011_factorialAndCombination.cpp)|
 
 ## Leet Code Questions
 

@@ -57,19 +57,29 @@ int main(){
     
     //power
     int b;
-    cout << "power function arguments," << endl;
+    cout << "Calling Power function," << endl;
     cout << "Enter Base : ";
     cin >> a;
     cout << "Enter power : ";
     cin >> b;
-    cout << a << "^" << b << " is " << power(a,b) << endl;
+    int result = power(a,b);
+    cout << a << "^" << b << " is " << result << endl;
 
     //is Even
-    if(isEven(n)){
-        cout << n << " is Even. " << endl; 
+    if(isEven(result)){
+        cout << result << " is Even. " << endl; 
     }
     else{
-        cout << n << " is Odd." << endl;
+        cout << result << " is Odd." << endl;
     }
+
+    //combination
+    int r;
+    cout << "Calling Combination function nCr." << endl;
+    cout << "Enter value for n : ";
+    cin >> n;
+    cout << "Enter value for r : ";
+    cin >> r;
+    cout << n << " C " << r << " is " << combination(n,r) << endl;
     return 0;
 }
