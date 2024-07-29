@@ -16,13 +16,13 @@
 
 ## Leet Code Questions
 
-|no.|Leet Code Problems|
+|Q. no.|Leet Code Problems|
 |---|------------------|
 |1281|[subtract-the-product-and-sum-of-digits-of-an-integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|
 |191|[number-of-1-bits](https://leetcode.com/problems/number-of-1-bits/)|
 |7|[reverse-integer](https://leetcode.com/problems/reverse-integer/)|
 |1009|[complement-of-base-10-integer](https://leetcode.com/problems/complement-of-base-10-integer/)|
-|132|[check Perfect square](https://leetcode.com/problems/power-of-two/)|
+|231|[check Perfect square](https://leetcode.com/problems/power-of-two/)|
 |||
 
 ### Boilerplate Code `c++` for VSCode Editor
