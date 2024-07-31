@@ -14,5 +14,10 @@ int main(){
     reverseArray(arr,n);
     cout << "Reverse  is : ";
     printArray(arr,n);   
+
+    // swap Alternate
+    swapAlternate(arr, n);
+    cout << "Alter Swap  : ";
+    printArray(arr,n);
     return 0;
 }

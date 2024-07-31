@@ -25,6 +25,36 @@
 |231|[check Perfect square](https://leetcode.com/problems/power-of-two/)|
 |||
 
+## User Define Templets
+
+```cpp
+template <class T1, class T2, ...>
+```
+
+example :
+
+```cpp
+template <class T>
+T sum(T a, T b){
+    return (a + b);
+}
+```
+
+## Standard Template Library (` STL `)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Boilerplate Code `c++` for VSCode Editor
 
 > [!TIP]\
