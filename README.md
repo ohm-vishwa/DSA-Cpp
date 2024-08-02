@@ -1,29 +1,10 @@
-# DSA C++
-## Code
-|Problems|Array|
-|--------|-----|
-|[1 Fibonacci number](/Problems/001_fibonacci.cpp)                        |[1 Reverse Array](/Array/001_reverseArray.cpp)|
-|[2 Check Prime number](/Problems/002_isPrime.cpp)                        |[2 fill Array](/Array/002_fillArray.cpp)|
-|[3 Subtract --> (product & sum)](/Problems/003_subtractProductAndSum.cpp)|[3 print Array](/Array/003_printArray.cpp)|
-|[4 Decimal to Binary](/Problems/004_decimalToBinary.cpp)                 ||
-|[5 Binary toDecimal](/Problems/005_binaryToDecimal.cpp)                  ||
-|[6 Reverse Integer](/Problems/006_reverseInteger.cpp)                    ||
-|[7 Bitwise 1's Compliment](/Problems/007_bitwiseComplement.cpp)          ||
-|[8 power of 2](/Problems/008_isPowerOf2.cpp)                             ||
-|[9 Power](/Problems/009_power.cpp)                                       ||
-|[10 Even Odd](/Problems/010_isEven.cpp)                                  ||
-|[11 Factorial & Combination](/Problems/011_factorialAndCombination.cpp)  ||
+# DSA C++ 
 
-## Leet Code Questions
-
-|Q. no.|Leet Code Problems|
-|---|------------------|
-|1281|[subtract-the-product-and-sum-of-digits-of-an-integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|
-|191|[number-of-1-bits](https://leetcode.com/problems/number-of-1-bits/)|
-|7|[reverse-integer](https://leetcode.com/problems/reverse-integer/)|
-|1009|[complement-of-base-10-integer](https://leetcode.com/problems/complement-of-base-10-integer/)|
-|231|[check Perfect square](https://leetcode.com/problems/power-of-two/)|
-|||
+|**Code**|
+|--------|
+|[Patterns](/patterns.cpp)|
+|[Problems](/Problems/)|
+|[Array](/Array/)|
 
 ## User Define Templets
 
