@@ -6,7 +6,7 @@
 |-------------------------|----------------------|----------------|
 
 
-## User Define Templets
+### User Define Templets
 
 ```cpp
 template <class T1, class T2, ...>
@@ -21,7 +21,7 @@ T sum(T a, T b){
 }
 ```
 
-## Standard Template Library (` STL `)
+### Standard Template Library (` STL `)
 
 
 
@@ -64,7 +64,7 @@ T sum(T a, T b){
 int a;
 a = cin.get(); // it stores ASCII value of  given input in a.
 ```
-## Bitwise Operators
+### Bitwise Operators
 
 1. **AND (` & `)**
 2. **OR (` | `)**
