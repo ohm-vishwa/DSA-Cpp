@@ -1,7 +1,10 @@
 # DSA C++ 
 
-|**Code**|[Patterns](/patterns.cpp)|[Problems](/Problems/)|[Array](/Array/)|
-|--------|-------------------------|----------------------|----------------|
+|**Code**|
+|--------|
+
+|[Patterns](/patterns.cpp)|[Problems](/Problems/)|[Array](/Array/)|
+|-------------------------|----------------------|----------------|
 
 
 ## User Define Templets
