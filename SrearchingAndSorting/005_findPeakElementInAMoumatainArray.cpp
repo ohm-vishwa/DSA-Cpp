@@ -1,35 +1,34 @@
+//leet code 852
 #include <iostream>
 #include <vector>
 #include <climits>
 using namespace std;
 
-int findPeakElement(vector<int> arr){
-    int peak = -1;
+int findpeakIndex(vector<int> arr){
     int start = 0;
     int end = arr.size()-1;
     int mid;
 
     while(end >= start){
         mid = start + (end - start) / 2;
-        peak = arr[mid];
 
         if((arr[mid] > arr[mid+1]) && (arr[mid] > arr[mid-1])){
-            return peak;
+            return mid;
         }
         if(arr[mid] < arr[mid+1]){
             start = mid+1;
         }
         else{
-            end = mid;
+            end = mid-1;
         }
     }
         cout << mid;
-    return peak;
+    return mid;
 }
 
 int main(){
-    vector <int> arr = {1,2,3,5,6,3,2,1}; // peak element is 7
-    int peak = findPeakElement(arr);
-    cout << "peak element is : " << peak << endl;
+    vector <int> arr = {3,4,5,1};
+    int peakIndex = findpeakIndex(arr);
+    cout << "peak Index is : " << peakIndex << endl;
     return 0;
 }
