@@ -5,7 +5,7 @@ using namespace std;
 
 int binarySearch(vector<int> arr, int key){
     int start = 0;
-    int end = arr.size() -1;
+    int end = arr.size();
     int mid = (start >> 1) + (end >> 1);
 
     while(end != start){
@@ -26,7 +26,7 @@ int binarySearch(vector<int> arr, int key){
 
 int main(){
     vector <int> arr = {1,2,3,5,6,7,8,9,23,45,67,89};
-    int index = binarySearch(arr,3);
+    int index = binarySearch(arr,1);
     cout << "key is found at index : " << index << endl;
     return 0;
 }
