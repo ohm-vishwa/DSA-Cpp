@@ -1,9 +1,9 @@
+// elemets should be in ascending order.
 #include <iostream>
 #include <vector>
 using namespace std;
 
-// element sholud be in asccending order
-int findFirstOccurence(vector<int> arr, int key){
+int findLastOccurence(vector<int> arr, int key){
     int index = -1;
     int start = 0;
     int end = arr.size();
@@ -26,11 +26,11 @@ int findFirstOccurence(vector<int> arr, int key){
     return index;
 }
 
-int main(){
-    vector <int> arr = {0,1,1,1,1,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,4,7,8,9,23,45,67,89};
-    int key = 4;
-    int index = findFirstOccurence(arr,key);
-    // int index = 0;
-    cout << "last occurence of "<< key <<" is found at index : " << index << endl;
-    return 0;
-}
+// int main(){
+//     vector <int> arr = {0,1,1,1,1,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,4,7,8,9,23,45,67,89};
+//     int key = 4;
+//     int index = findLastOccurence(arr,key);
+//     // int index = 0;
+//     cout << "last occurence of "<< key <<" is found at index : " << index << endl;
+//     return 0;
+// }

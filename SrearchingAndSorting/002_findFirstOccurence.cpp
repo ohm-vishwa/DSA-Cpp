@@ -1,3 +1,4 @@
+// elemets should be in ascending order.
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -26,11 +27,11 @@ int findFirstOccurence(vector<int> arr, int key){
     return index;
 }
 
-int main(){
-    vector <int> arr = {0,1,1,1,1,2,2,2,2,3,3,3,3,3,4,4,4,4,4,4,4,4,7,8,9,23,45,67,89};
-    int key = 3;
-    int index = findFirstOccurence(arr,key);
-    // int index = 0;
-    cout << "first occurence of " << key << " is found at index : " << index << endl;
-    return 0;
-}
+// int main(){
+//     vector <int> arr = {0,1,1,1,1,2,2,2,2,3,3,3,3,3,4,4,4,4,4,4,4,4,7,8,9,23,45,67,89};
+//     int key = 3;
+//     int index = findFirstOccurence(arr,key);
+//     // int index = 0;
+//     cout << "first occurence of " << key << " is found at index : " << index << endl;
+//     return 0;
+// }
