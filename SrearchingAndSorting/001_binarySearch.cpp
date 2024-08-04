@@ -27,6 +27,6 @@ int main(){
     vector <int> arr = {1,2,3,5,6,7,8,9,23,45,67,89};
     int index = binarySearch(arr,3);
     // int index = 0;
-    cout << "key is : " << index << endl;
+    cout << "key is found at index : " << index << endl;
     return 0;
 }
