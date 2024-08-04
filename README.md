@@ -1,7 +1,6 @@
 # DSA C++ 
 
-|**Code**|
-|--------|
+**Code**
 
 |[Patterns](/patterns.cpp)|[Problems](/Problems/)|[Array](/Array/)|
 |-------------------------|----------------------|----------------|
