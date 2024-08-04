@@ -22,12 +22,12 @@ int findpeakIndex(vector<int> arr){
             end = mid-1;
         }
     }
-        cout << mid;
+        // cout << mid;
     return mid;
 }
 
 int main(){
-    vector <int> arr = {3,4,5,1};
+    vector <int> arr = {1,2,5,3,1};
     int peakIndex = findpeakIndex(arr);
     cout << "peak Index is : " << peakIndex << endl;
     return 0;
