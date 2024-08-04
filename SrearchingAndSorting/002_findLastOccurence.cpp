@@ -9,13 +9,13 @@ int findFirstOccurence(vector<int> arr, int key){
     int end = arr.size();
     int mid = (start >> 1) + (end >> 1);
 
-    while(end != start){
+    while(end > start){
         if(arr[mid] == key){
             index = mid;
-            end = mid-1;
-            start = 0;
+            end = arr.size();
+            start = mid+1;
         }
-        if(arr[mid] >= key){
+        if(arr[mid] > key){
             end = mid;
         }
         else {
@@ -27,10 +27,10 @@ int findFirstOccurence(vector<int> arr, int key){
 }
 
 int main(){
-    vector <int> arr = {0,1,1,1,1,2,2,2,2,3,3,3,3,3,4,4,4,4,4,4,4,4,7,8,9,23,45,67,89};
-    int key = 3;
+    vector <int> arr = {0,1,1,1,1,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,4,7,8,9,23,45,67,89};
+    int key = 4;
     int index = findFirstOccurence(arr,key);
     // int index = 0;
-    cout << "first occurence of " << key << " is found at index : " << index << endl;
+    cout << "last occurence of "<< key <<" is found at index : " << index << endl;
     return 0;
 }
