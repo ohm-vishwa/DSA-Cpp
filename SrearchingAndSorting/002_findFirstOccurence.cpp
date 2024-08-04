@@ -7,10 +7,11 @@ using namespace std;
 int findFirstOccurence(vector<int> arr, int key){
     int index = -1;
     int start = 0;
-    int end = arr.size();
-    int mid = (start >> 1) + (end >> 1);
+    int end = arr.size()-1;
+    int mid;
 
     while(end != start){
+        mid = start + (end - start) / 2;
         if(arr[mid] == key){
             index = mid;
             end = mid-1;
@@ -22,7 +23,6 @@ int findFirstOccurence(vector<int> arr, int key){
         else {
             start = mid +1;
         }
-        mid = (start >> 1) + (end >> 1);
     }
     return index;
 }

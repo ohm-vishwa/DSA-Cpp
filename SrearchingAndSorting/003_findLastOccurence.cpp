@@ -6,10 +6,11 @@ using namespace std;
 int findLastOccurence(vector<int> arr, int key){
     int index = -1;
     int start = 0;
-    int end = arr.size();
-    int mid = (start >> 1) + (end >> 1);
+    int end = arr.size()-1;
+    int mid;
 
     while(end > start){
+        mid = start + (end - start) / 2;
         if(arr[mid] == key){
             index = mid;
             end = arr.size();
@@ -21,14 +22,13 @@ int findLastOccurence(vector<int> arr, int key){
         else {
             start = mid +1;
         }
-        mid = (start >> 1) + (end >> 1);
     }
     return index;
 }
 
 // int main(){
-//     vector <int> arr = {0,1,1,1,1,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,4,7,8,9,23,45,67,89};
-//     int key = 4;
+//     vector <int> arr = {0,1,1,1,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,4,7,8,9,23,45,67,89};
+//     int key = 2;
 //     int index = findLastOccurence(arr,key);
 //     // int index = 0;
 //     cout << "last occurence of "<< key <<" is found at index : " << index << endl;
