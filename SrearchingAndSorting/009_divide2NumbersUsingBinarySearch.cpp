@@ -2,17 +2,17 @@
 using namespace std;
 
 int divideUsingBinarySearch(int divident, int divisor){
-    int negcout = 0;
+    int negcount = 0;
     if(divisor == 0){
         return 0;
     }
     if(divisor < 0){
         divisor = -divisor;
-        negcout++;
+        negcount++;
     }
     if(divident < 0){
         divident = -divident;
-        negcout++;
+        negcount++;
     }
     int s = 0,e = divident,m,ans;
     while (s <= e){
@@ -29,7 +29,7 @@ int divideUsingBinarySearch(int divident, int divisor){
         }
     }
     
-    if(negcout == 1){
+    if(negcount == 1){
         return -ans;
     }
 
