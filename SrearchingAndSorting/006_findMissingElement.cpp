@@ -26,8 +26,7 @@ int findMissingElement(vector<int> arr){
 }
 
 int main(){          //0,1,2,3,4,5,6,7,8,...
-    vector<int> arr = {1,2,3,4,6,7,8,9,10,11,12,13};
+    vector<int> arr = {1,2,3,4,5,6,8,9,10,11,12,13};
     cout << "missing element is : " << findMissingElement(arr) << endl;
-    // findMissingElement(arr);
     return 0;
 }
