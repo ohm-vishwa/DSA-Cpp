@@ -5,11 +5,9 @@ using namespace std;
 
 pair<int,int> binarySearch2DArray(vector<vector<int> > arr, int key){
     pair<int,int> result(-1,-1);
-    int s = 0;
-    int e = arr.size()-1;
-    int m;
+    int m,s = 0,e = arr.size()-1;
 
-    //column search
+    // column search
     while (s <= e){
             m = s + (e-s)/2;
             result.first = m;
@@ -28,7 +26,6 @@ pair<int,int> binarySearch2DArray(vector<vector<int> > arr, int key){
     if(key < arr[m][0]){
     result.first = result.first-1;
     }
-
         // row search
         s = 0;
         e = arr[0].size()-1;
@@ -46,12 +43,6 @@ pair<int,int> binarySearch2DArray(vector<vector<int> > arr, int key){
             e = m-1;
         }
     }
-
-    if(arr[result.first][result.second] != key){
-        result.first = -1;
-        result.second = -1;
-        return result;
-    }
     return result;
 } 
 
@@ -61,10 +52,10 @@ int main(){
 
     cout << "Enter number to search in 2D array : ";
     cin >> key;
-
     pair<int,int> resultIndex = binarySearch2DArray(arr,key);
-    
-    if(resultIndex.first != -1){
+    int check = arr[resultIndex.first][resultIndex.second];
+
+    if(check == key){
         cout << key << " is found at arr[" << resultIndex.first << "][" << resultIndex.second << "]" << endl;
     }
     else{
