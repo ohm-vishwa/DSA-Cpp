@@ -6,11 +6,11 @@ int divideUsingBinarySearch(int divident, int divisor){
     if(divisor == 0){
         return 0;
     }
-    if(divisor < 0){
+    if(divisor < 1){
         divisor = -divisor;
         negcount++;
     }
-    if(divident < 0){
+    if(divident < 1){
         divident = -divident;
         negcount++;
     }
@@ -18,7 +18,7 @@ int divideUsingBinarySearch(int divident, int divisor){
     while (s <= e){
         m = s+ (e-s)/2;
         if(divisor*m == divident){
-            return m;
+            ans = m;
         }
         if(divisor*m > divident){
             e = m-1;
@@ -28,7 +28,7 @@ int divideUsingBinarySearch(int divident, int divisor){
             ans = m;
         }
     }
-    
+
     if(negcount == 1){
         return -ans;
     }
@@ -44,7 +44,7 @@ int main(){
     cout << "Enter divisor : ";
     cin >> divisor;
 
-    // cout << -divisor<<endl;
+    // cout << (-8/-4)<<endl;
     int ans = divideUsingBinarySearch(divident,divisor);
     cout << ans;
     return 0;
