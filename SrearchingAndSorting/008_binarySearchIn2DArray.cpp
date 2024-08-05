@@ -70,6 +70,5 @@ int main(){
     else{
         cout << "element not found." << endl;
     }
-    
     return 0;
 }
