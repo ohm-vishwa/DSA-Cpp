@@ -24,7 +24,7 @@ pair<int,int> binarySearch2DArray(int arr[5][4],int r, int c, int key){
             e = m-1;
         }
     }
-        // row search;
+        // row search
         s = 0;
         e = c-1;
     while (s <= e){
