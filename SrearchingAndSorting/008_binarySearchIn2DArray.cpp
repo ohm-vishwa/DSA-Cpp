@@ -54,7 +54,7 @@ pair<int,int> binarySearch2DArray(int arr[5][4],int r, int c, int key){
 } 
 
 int main(){
-    int arr[5][4] = {{1,2,3,4},{5,6,7,8},{13,14,15,16},{17,18,19,20},{21,22,23,24}};
+    int arr[5][4] = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16},{17,18,19,20}};
     int key;
 
     cout << "Enter number to search in 2D array : ";
