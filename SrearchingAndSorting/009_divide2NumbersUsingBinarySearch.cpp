@@ -1,7 +1,9 @@
 #include <iostream>
 using namespace std;
 
-int divideUsingBinarySearch(int divident, int divisor){
+double precision(int,int,int);
+
+double divideUsingBinarySearch(int divident, int divisor){
     int negcount = 0;
     if(divisor == 0){
         return 0;
@@ -14,7 +16,8 @@ int divideUsingBinarySearch(int divident, int divisor){
         divident = -divident;
         negcount++;
     }
-    int s = 0,e = divident,m,ans;
+    int s = 0,e = divident,m;
+    double ans;
     while (s <= e){
         m = s+ (e-s)/2;
         if(divisor*m == divident){
@@ -28,11 +31,22 @@ int divideUsingBinarySearch(int divident, int divisor){
             ans = m;
         }
     }
-
+    ans = precision(divident,divisor,ans);
     if(negcount == 1){
         return -ans;
     }
 
+    return ans;
+}
+
+double precision(int divident, int divisor, int result){
+    double step = 0.00001;
+    double ans;
+    for(int i = 0 ; i < 5 ; i++){
+        for(double j = result ; j*divisor <= divident ; j+= step){
+            ans = j;
+        }
+    }
     return ans;
 }
 
@@ -44,8 +58,7 @@ int main(){
     cout << "Enter divisor : ";
     cin >> divisor;
 
-    // cout << (-8/-4)<<endl;
-    int ans = divideUsingBinarySearch(divident,divisor);
-    cout << ans;
+    double ans = divideUsingBinarySearch(divident,divisor);
+    cout << divident<< "/" << divisor <<" = "<< ans << endl;
     return 0;
 }
