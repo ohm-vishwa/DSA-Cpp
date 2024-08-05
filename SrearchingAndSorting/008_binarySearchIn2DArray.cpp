@@ -8,9 +8,6 @@ pair<int,int> binarySearch2DArray(int arr[5][4],int r, int c, int key){
     int e = r-1;
     int m;
 
-    if(key > arr[r-1][c-1] || key < arr[0][0]){
-        return result;
-    }
     //column search
     while (s <= e){
             m = s + (e-s)/2;
@@ -27,11 +24,6 @@ pair<int,int> binarySearch2DArray(int arr[5][4],int r, int c, int key){
             e = m-1;
         }
     }
-
-    if(key < arr[m][0]){
-    result.first = result.first-1;
-    }
-
         // row search;
         s = 0;
         e = c-1;
@@ -50,11 +42,16 @@ pair<int,int> binarySearch2DArray(int arr[5][4],int r, int c, int key){
         }
     }
 
+    if(arr[result.first][result.second] != key){
+        result.first = -1;
+        result.second = -1;
+        return result;
+    }
     return result;
 } 
 
 int main(){
-    int arr[5][4] = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16},{17,18,19,20}};
+    int arr[5][4] = {{1,2,3,4},{5,6,7,8},{13,14,15,16},{17,18,19,20},{21,22,23,24}};
     int key;
 
     cout << "Enter number to search in 2D array : ";
