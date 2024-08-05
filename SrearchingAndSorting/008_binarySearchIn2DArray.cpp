@@ -1,11 +1,12 @@
 #include <iostream>
 #include <utility>
+#include <vector>
 using namespace std;
 
-pair<int,int> binarySearch2DArray(int arr[5][4],int r, int c, int key){
+pair<int,int> binarySearch2DArray(vector<vector<int> > arr, int key){
     pair<int,int> result(-1,-1);
     int s = 0;
-    int e = r-1;
+    int e = arr.size()-1;
     int m;
 
     //column search
@@ -24,14 +25,13 @@ pair<int,int> binarySearch2DArray(int arr[5][4],int r, int c, int key){
             e = m-1;
         }
     }
-
     if(key < arr[m][0]){
     result.first = result.first-1;
     }
 
         // row search
         s = 0;
-        e = c-1;
+        e = arr[0].size()-1;
     while (s <= e){
             m = s + (e-s)/2;
 
@@ -56,12 +56,13 @@ pair<int,int> binarySearch2DArray(int arr[5][4],int r, int c, int key){
 } 
 
 int main(){
-    int arr[5][4] = {{1,2,3,4},{5,6,7,8},{13,14,15,16},{17,18,19,20},{21,22,23,24}};
+    vector<vector<int> > arr = {{1,2,3,4,5},{6,7,8,9,10},{12,14,15,17,18},{20,21,22,23,24},{26,27,29,31,33},{35,36,37,38,39},{40,41,45,67,69}};
     int key;
 
     cout << "Enter number to search in 2D array : ";
     cin >> key;
-    pair<int,int> resultIndex = binarySearch2DArray(arr,5,4,key);
+
+    pair<int,int> resultIndex = binarySearch2DArray(arr,key);
     
     if(resultIndex.first != -1){
         cout << key << " is found at arr[" << resultIndex.first << "][" << resultIndex.second << "]" << endl;
