@@ -24,6 +24,11 @@ pair<int,int> binarySearch2DArray(int arr[5][4],int r, int c, int key){
             e = m-1;
         }
     }
+
+    if(key < arr[m][0]){
+    result.first = result.first-1;
+    }
+
         // row search
         s = 0;
         e = c-1;
@@ -56,16 +61,14 @@ int main(){
 
     cout << "Enter number to search in 2D array : ";
     cin >> key;
-
     pair<int,int> resultIndex = binarySearch2DArray(arr,5,4,key);
     
     if(resultIndex.first != -1){
-        cout << key << " is found at arr[" << resultIndex.first << "," << resultIndex.second << "]" << endl;
+        cout << key << " is found at arr[" << resultIndex.first << "][" << resultIndex.second << "]" << endl;
     }
     else{
-        cout << "key not found." << endl;
+        cout << "element not found." << endl;
     }
-
-    // cout << arr[][] << endl;
+    
     return 0;
 }
