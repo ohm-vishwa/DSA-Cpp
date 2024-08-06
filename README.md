@@ -8,7 +8,7 @@
 # General Q&A
 <details>
    <summary>What are Data Structure ?</summary>
-   When a program is dealing with the data, how to will organize the data in main memory during execution time of a program.
+   When a program is dealing with the data, how it will organize the data in main memory during execution time of a program.
    <br>
    <br>
 
