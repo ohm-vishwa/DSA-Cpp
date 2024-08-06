@@ -10,6 +10,8 @@
    <summary>What are Data Structure ?</summary>
    When a program is dealing with the data, how to will organize the data in main memory during execution time of a program.
 
+   <br>
+   
    |[physical DS]()|[Logical Ds]()|
    |-|-|
    |Array|Stack|
@@ -17,8 +19,9 @@
    |Linked List|Tress|
    ||Graph|
    ||Hashing|
-   
+
 </details>
+
 <!-- ### User Define Templets
 
 ```cpp
