@@ -12,10 +12,10 @@
    <br>
    <br>
 
-   |[physical DS]()|[Logical DS]()|
+   |[Physical DS]()|[Logical DS]()|
    |-|-|
    |Array|Stack|
-   |Matrics|Queue|
+   |Matrices|Queue|
    |Linked List|Tress|
    ||Graph|
    ||Hashing|
