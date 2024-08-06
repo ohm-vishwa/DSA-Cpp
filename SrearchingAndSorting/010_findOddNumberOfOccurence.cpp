@@ -36,7 +36,7 @@ int findOddOccurence(vector<int> arr){
 }
 
 int main(){         // 0 1 2 3 4 5 6 7 8 9 10...
-    vector<int> arr = {1,1,2,2,3,3,1,1,4,4,5,5,3,3,1,1,7,7,9,23,23,45,45,67,67,23,23};
+    vector<int> arr = {1,1,2,2,3,3,4,4,5,4,4,2,2};
     cout << arr[findOddOccurence(arr)] << " is Odd number of Occurence." << endl;
     return 0;
 }

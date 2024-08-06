@@ -5,8 +5,12 @@
 |[Patterns](/patterns.cpp)|[Problems](/Problems/)|[Array](/Array/)|
 |-------------------------|----------------------|----------------|
 
-
-### User Define Templets
+# General Q&A
+<details>
+   <summary>What are Data Structure ?</summary>
+   When a program is dealing with the data, how to will organize the data in main memory during execution time of a program.
+</details>
+<!-- ### User Define Templets
 
 ```cpp
 template <class T1, class T2, ...>
@@ -19,9 +23,9 @@ template <class T>
 T sum(T a, T b){
     return (a + b);
 }
-```
+``` -->
 
-### Standard Template Library (` STL `)
+<!-- ### Standard Template Library (` STL `) -->
 
 
 
@@ -65,15 +69,6 @@ int a;
 a = cin.get(); // it stores ASCII value of  given input in a.
 ```
 ### Bitwise Operators
-
-1. **AND (` & `)**
-2. **OR (` | `)**
-3. **XOR (` ^ `)**
-4. **NOT (` ~ `)**
-5. **Left Shift (` << `)**
-6. **Right Shift (` >> `)**
-
-### Examples
 
 1. **Bitwise AND (`&`):**
 

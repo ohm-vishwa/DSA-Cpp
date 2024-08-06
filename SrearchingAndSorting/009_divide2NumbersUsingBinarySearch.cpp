@@ -1,3 +1,4 @@
+// constrain divide 2 number using binary search & without using "/" or "%" operator.
 #include <iostream>
 using namespace std;
 
