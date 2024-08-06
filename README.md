@@ -9,6 +9,15 @@
 <details>
    <summary>What are Data Structure ?</summary>
    When a program is dealing with the data, how to will organize the data in main memory during execution time of a program.
+
+   |[physical DS]()|[Logical Ds]()|
+   |-|-|
+   |Array|Stack|
+   |Matrics|Queue|
+   |Linked List|Tress|
+   ||Graph|
+   ||Hashing|
+   
 </details>
 <!-- ### User Define Templets
 
