@@ -52,7 +52,7 @@ T sum(T a, T b){
 
 
 
-### Boilerplate Code `c++` for VSCode Editor
+# Boilerplate Code `c++` for VSCode Editor
 
 > [!TIP]\
 > 1.Open setting in VSCode Editor\
@@ -80,7 +80,7 @@ T sum(T a, T b){
 int a;
 a = cin.get(); // it stores ASCII value of  given input in a.
 ```
-### Bitwise Operators
+# Bitwise Operators
 
 1. **Bitwise AND (`&`):**
 
