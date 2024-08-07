@@ -2,8 +2,8 @@
 
 **Code**
 
-|[Patterns](/patterns.cpp)|[Problems](/Problems/)|[Array](/Array/)|
-|-------------------------|----------------------|----------------|
+|[Patterns](/patterns.cpp)|[Problems](/Problems/)|[Array](/Array/)|[Searching & Sorting](/SrearchingAndSorting/)|
+|-------------------------|----------------------|----------------|-|
 
 # General Q&A
 <details>
@@ -63,7 +63,7 @@ T sum(T a, T b){
 
 ```json
 "Print to console": {
-		"prefix": "boilerplate Code",
+		"prefix": "boilerplateCode",
 		"body": [
 			"#include <iostream>",
 			"using namespace std;\n",
